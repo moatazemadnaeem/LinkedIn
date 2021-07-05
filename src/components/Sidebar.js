@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Sidebar.css'
-import {Avatar} from '@material-ui/core'
+//import {Avatar} from '@material-ui/core'
 import {useSelector} from 'react-redux'
 function Sidebar() {
     const recents=(topic)=>{

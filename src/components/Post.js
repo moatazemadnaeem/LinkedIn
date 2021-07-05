@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Post.css'
-import {Avatar} from '@material-ui/core'
+
 import FeedOpts from './FeedOpts'
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import CommentIcon from '@material-ui/icons/Comment';

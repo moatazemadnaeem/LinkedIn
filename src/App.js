@@ -7,12 +7,12 @@ import Feed from './components/Feed';
 import Widgets from './components/Widgets';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
-import { useHistory } from "react-router-dom";
+//import { useHistory } from "react-router-dom";
 import {auth,db} from './firebase'
 import {useDispatch} from 'react-redux'
 import {AddingNewUser} from './reduxStore/user/userActions'
 function App() {
-  const history = useHistory();
+  //const history = useHistory();
   const dispatch=useDispatch()
   useEffect(()=>{
     auth.onAuthStateChanged(user=>{
