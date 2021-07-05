@@ -1,0 +1,32 @@
+.post{
+    background-color: whitesmoke;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.post_header{
+    display: flex;
+    align-items: center;
+
+}
+.post_info{
+    margin-left: 5px;
+}
+.post_body{
+    overflow: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.post_opts{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.post__photourl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

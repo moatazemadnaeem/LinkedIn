@@ -1,0 +1,33 @@
+.widgets{
+    flex: 0.2;
+  
+}
+.widgets_header{
+    
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.widgetsNews{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.widgetsNewsIcon{
+    color:#0074b1;
+}
+.widgetsNewsLeft>p{
+    color: lightslategray;
+    font-size: 15px;
+}
